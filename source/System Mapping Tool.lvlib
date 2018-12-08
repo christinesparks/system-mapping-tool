@@ -54,6 +54,7 @@
 	</Item>
 	<Item Name="UI" Type="Folder">
 		<Item Name="Enable or Disable UI Elements.vi" Type="VI" URL="../UI/Enable or Disable UI Elements.vi"/>
+		<Item Name="Get Active Row.vi" Type="VI" URL="../UI/Get Active Row.vi"/>
 		<Item Name="Init All System Mappings Tab.vi" Type="VI" URL="../UI/Init All System Mappings Tab.vi"/>
 		<Item Name="Init Filtered System Mappings Tab.vi" Type="VI" URL="../UI/Init Filtered System Mappings Tab.vi"/>
 		<Item Name="Init Loop Data.vi" Type="VI" URL="../SubVIs/Init Loop Data.vi"/>
