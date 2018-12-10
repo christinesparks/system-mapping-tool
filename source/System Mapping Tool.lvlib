@@ -15,6 +15,11 @@
 		<Item Name="UI Refs.ctl" Type="VI" URL="../TypeDefs/UI Refs.ctl"/>
 	</Item>
 	<Item Name="File I/O" Type="Folder">
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Export All Mappings.vi" Type="VI" URL="../Mappings/Export All Mappings.vi"/>
+			<Item Name="Export Filtered Mappings.vi" Type="VI" URL="../Mappings/Export Filtered Mappings.vi"/>
+		</Item>
+		<Item Name="Export Mappings.vi" Type="VI" URL="../File IO/Export Mappings.vi"/>
 		<Item Name="Get SDF Path from INI.vi" Type="VI" URL="../File IO/Get SDF Path from INI.vi"/>
 		<Item Name="INI File Path FGV.vi" Type="VI" URL="../File IO/INI File Path FGV.vi"/>
 		<Item Name="Load SDF from Disk.vi" Type="VI" URL="../File IO/Load SDF from Disk.vi"/>
@@ -53,19 +58,30 @@
 		<Item Name="Map Channels.vi" Type="VI" URL="../Mappings/Map Channels.vi"/>
 	</Item>
 	<Item Name="UI" Type="Folder">
+		<Item Name="All Mappings" Type="Folder">
+			<Item Name="Init All System Mappings Tab.vi" Type="VI" URL="../UI/Init All System Mappings Tab.vi"/>
+		</Item>
+		<Item Name="Filtered Mappings" Type="Folder">
+			<Item Name="Init Filtered System Mappings Tab.vi" Type="VI" URL="../UI/Init Filtered System Mappings Tab.vi"/>
+			<Item Name="Update Mappings by Filter.vi" Type="VI" URL="../UI/Update Mappings by Filter.vi"/>
+		</Item>
+		<Item Name="Unmapped Nodes" Type="Folder">
+			<Item Name="Get Unmapped Channels.vi" Type="VI" URL="../Mappings/Get Unmapped Channels.vi"/>
+			<Item Name="Init Unmapped Nodes Tab.vi" Type="VI" URL="../UI/Init Unmapped Nodes Tab.vi"/>
+			<Item Name="Update Unmapped Channels by Filter.vi" Type="VI" URL="../UI/Update Unmapped Channels by Filter.vi"/>
+		</Item>
 		<Item Name="Enable or Disable UI Elements.vi" Type="VI" URL="../UI/Enable or Disable UI Elements.vi"/>
-		<Item Name="Init All System Mappings Tab.vi" Type="VI" URL="../UI/Init All System Mappings Tab.vi"/>
-		<Item Name="Init Filtered System Mappings Tab.vi" Type="VI" URL="../UI/Init Filtered System Mappings Tab.vi"/>
+		<Item Name="Get Active Row.vi" Type="VI" URL="../UI/Get Active Row.vi"/>
 		<Item Name="Init Loop Data.vi" Type="VI" URL="../SubVIs/Init Loop Data.vi"/>
 		<Item Name="Init UI Elements.vi" Type="VI" URL="../UI/Init UI Elements.vi"/>
 		<Item Name="Refresh Mappings.vi" Type="VI" URL="../Mappings/Refresh Mappings.vi"/>
 		<Item Name="Set Selected Mapping.vi" Type="VI" URL="../Mappings/Set Selected Mapping.vi"/>
-		<Item Name="Update Mappings by Filter.vi" Type="VI" URL="../UI/Update Mappings by Filter.vi"/>
 	</Item>
 	<Item Name="VS Tree" Type="Folder">
 		<Item Name="Draw Tree.vi" Type="VI" URL="../VS Tree/Draw Tree.vi"/>
 		<Item Name="Get Current Node Path.vi" Type="VI" URL="../VS Tree/Get Current Node Path.vi"/>
-		<Item Name="Is Node Channel.vi" Type="VI" URL="../Is Node Channel.vi"/>
+		<Item Name="Get Node Path Children.vi" Type="VI" URL="../VS Tree/Get Node Path Children.vi"/>
+		<Item Name="Is Node Channel.vi" Type="VI" URL="../VS Tree/Is Node Channel.vi"/>
 	</Item>
 	<Item Name="System Mapping Tool Main.vi" Type="VI" URL="../System Mapping Tool Main.vi"/>
 </Library>
