@@ -31,13 +31,13 @@
 			<Item Name="Dialog" Type="Folder">
 				<Item Name="Init Table Data.vi" Type="VI" URL="../Mappings/Init Table Data.vi"/>
 				<Item Name="Mapping Error Dialog (Multiple).vi" Type="VI" URL="../Mappings/Mapping Error Dialog (Multiple).vi"/>
-				<Item Name="Mapping Error Dialog (Single).vi" Type="VI" URL="../Mapping Error Dialog (Single).vi"/>
+				<Item Name="Mapping Error Dialog (Single).vi" Type="VI" URL="../Mappings/Mapping Error Dialog (Single).vi"/>
 				<Item Name="Size Table.vi" Type="VI" URL="../Mappings/Size Table.vi"/>
 			</Item>
 			<Item Name="Error Handling" Type="Folder">
 				<Item Name="Check for Duplicate Destinations.vi" Type="VI" URL="../Mappings/Check for Duplicate Destinations.vi"/>
 				<Item Name="Check Unique and Valid Mapping.vi" Type="VI" URL="../Mappings/Check Unique and Valid Mapping.vi"/>
-				<Item Name="Mapping Arrays Different Length.vi" Type="VI" URL="../Mapping Arrays Different Length.vi"/>
+				<Item Name="Mapping Arrays Different Length.vi" Type="VI" URL="../Mappings/Mapping Arrays Different Length.vi"/>
 				<Item Name="Mapping Error Handler.vi" Type="VI" URL="../Mappings/Mapping Error Handler.vi"/>
 			</Item>
 			<Item Name="Polymorphic" Type="Folder">
@@ -46,13 +46,13 @@
 				<Item Name="Mapping Error Handler (Multiple).vi" Type="VI" URL="../Mappings/Mapping Error Handler (Multiple).vi"/>
 				<Item Name="Mapping Error Handler (Single).vi" Type="VI" URL="../Mappings/Mapping Error Handler (Single).vi"/>
 			</Item>
-			<Item Name="Add System Mapping.vi" Type="VI" URL="../Add System Mapping.vi"/>
+			<Item Name="Add System Mapping.vi" Type="VI" URL="../Mappings/Add System Mapping.vi"/>
 			<Item Name="Filter Mappings.vi" Type="VI" URL="../Mappings/Filter Mappings.vi"/>
 			<Item Name="Format Mappings.vi" Type="VI" URL="../Mappings/Format Mappings.vi"/>
 			<Item Name="Get System Mappings.vi" Type="VI" URL="../Mappings/Get System Mappings.vi"/>
 			<Item Name="Unformat Mapping.vi" Type="VI" URL="../Mappings/Unformat Mapping.vi"/>
 		</Item>
-		<Item Name="Delete Mapping.vi" Type="VI" URL="../Delete Mapping.vi"/>
+		<Item Name="Delete Mapping.vi" Type="VI" URL="../Mappings/Delete Mapping.vi"/>
 		<Item Name="Disconnect Mappings.vi" Type="VI" URL="../Mappings/Disconnect Mappings.vi"/>
 		<Item Name="Import Mappings.vi" Type="VI" URL="../Mappings/Import Mappings.vi"/>
 		<Item Name="Map Channels.vi" Type="VI" URL="../Mappings/Map Channels.vi"/>
