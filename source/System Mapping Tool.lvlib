@@ -65,13 +65,17 @@
 	</Item>
 	<Item Name="Model Analysis" Type="Folder">
 		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Analyze Parameter File.vi" Type="VI" URL="../Model Analysis/Analyze Parameter File.vi"/>
 			<Item Name="Disable Listbox.vi" Type="VI" URL="../Model Analysis/Disable Listbox.vi"/>
 			<Item Name="Get Model Info - from DLL.vi" Type="VI" URL="../Model Analysis/Get Model Info - from DLL.vi"/>
 			<Item Name="Get Model Info - from SysDef.vi" Type="VI" URL="../Model Analysis/Get Model Info - from SysDef.vi"/>
+			<Item Name="Get Model Parameter File Path.vi" Type="VI" URL="../Model Analysis/Get Model Parameter File Path.vi"/>
+			<Item Name="Get Model Parameters - from Model File.vi" Type="VI" URL="../Model Analysis/Get Model Parameters - from Model File.vi"/>
 			<Item Name="Get Model Path.vi" Type="VI" URL="../Model Analysis/Get Model Path.vi"/>
 			<Item Name="Hightlight Listbox.vi" Type="VI" URL="../Model Analysis/Hightlight Listbox.vi"/>
 			<Item Name="Init Model Trees.vi" Type="VI" URL="../Model Analysis/Init Model Trees.vi"/>
-			<Item Name="Update Model Info.vi" Type="VI" URL="../Update Model Info.vi"/>
+			<Item Name="Parameter Files Error Dialog.vi" Type="VI" URL="../Model Analysis/Parameter Files Error Dialog.vi"/>
+			<Item Name="Update Model Info.vi" Type="VI" URL="../Model Analysis/Update Model Info.vi"/>
 		</Item>
 		<Item Name="Model Analysis Main.vi" Type="VI" URL="../Model Analysis/Model Analysis Main.vi"/>
 	</Item>
