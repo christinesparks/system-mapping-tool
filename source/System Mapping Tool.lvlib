@@ -8,10 +8,16 @@
 
 </Property>
 	<Item Name="Controls" Type="Folder">
+		<Item Name="Mapping Errors" Type="Folder">
+			<Item Name="Mapping Error Cluster.ctl" Type="VI" URL="../TypeDefs/Mapping Error Cluster.ctl"/>
+			<Item Name="Mapping Error Groups.ctl" Type="VI" URL="../TypeDefs/Mapping Error Groups.ctl"/>
+			<Item Name="Mapping Error.ctl" Type="VI" URL="../TypeDefs/Mapping Error.ctl"/>
+		</Item>
+		<Item Name="Model Analysis" Type="Folder">
+			<Item Name="Model Analysis Data.ctl" Type="VI" URL="../TypeDefs/Model Analysis Data.ctl"/>
+			<Item Name="Model Analysis UI Refs.ctl" Type="VI" URL="../TypeDefs/Model Analysis UI Refs.ctl"/>
+		</Item>
 		<Item Name="Loop Data.ctl" Type="VI" URL="../TypeDefs/Loop Data.ctl"/>
-		<Item Name="Mapping Error Cluster.ctl" Type="VI" URL="../TypeDefs/Mapping Error Cluster.ctl"/>
-		<Item Name="Mapping Error Groups.ctl" Type="VI" URL="../TypeDefs/Mapping Error Groups.ctl"/>
-		<Item Name="Mapping Error.ctl" Type="VI" URL="../TypeDefs/Mapping Error.ctl"/>
 		<Item Name="UI Refs.ctl" Type="VI" URL="../TypeDefs/UI Refs.ctl"/>
 	</Item>
 	<Item Name="File I/O" Type="Folder">
@@ -56,6 +62,22 @@
 		<Item Name="Disconnect Mappings.vi" Type="VI" URL="../Mappings/Disconnect Mappings.vi"/>
 		<Item Name="Import Mappings.vi" Type="VI" URL="../Mappings/Import Mappings.vi"/>
 		<Item Name="Map Channels.vi" Type="VI" URL="../Mappings/Map Channels.vi"/>
+	</Item>
+	<Item Name="Model Analysis" Type="Folder">
+		<Item Name="SubVIs" Type="Folder">
+			<Item Name="Analyze Parameter File.vi" Type="VI" URL="../Model Analysis/Analyze Parameter File.vi"/>
+			<Item Name="Disable Listbox.vi" Type="VI" URL="../Model Analysis/Disable Listbox.vi"/>
+			<Item Name="Get Model Info - from DLL.vi" Type="VI" URL="../Model Analysis/Get Model Info - from DLL.vi"/>
+			<Item Name="Get Model Info - from SysDef.vi" Type="VI" URL="../Model Analysis/Get Model Info - from SysDef.vi"/>
+			<Item Name="Get Model Parameter File Path.vi" Type="VI" URL="../Model Analysis/Get Model Parameter File Path.vi"/>
+			<Item Name="Get Model Parameters - from Model File.vi" Type="VI" URL="../Model Analysis/Get Model Parameters - from Model File.vi"/>
+			<Item Name="Get Model Path.vi" Type="VI" URL="../Model Analysis/Get Model Path.vi"/>
+			<Item Name="Hightlight Listbox.vi" Type="VI" URL="../Model Analysis/Hightlight Listbox.vi"/>
+			<Item Name="Init Model Trees.vi" Type="VI" URL="../Model Analysis/Init Model Trees.vi"/>
+			<Item Name="Parameter Files Error Dialog.vi" Type="VI" URL="../Model Analysis/Parameter Files Error Dialog.vi"/>
+			<Item Name="Update Model Info.vi" Type="VI" URL="../Model Analysis/Update Model Info.vi"/>
+		</Item>
+		<Item Name="Model Analysis Main.vi" Type="VI" URL="../Model Analysis/Model Analysis Main.vi"/>
 	</Item>
 	<Item Name="UI" Type="Folder">
 		<Item Name="All Mappings" Type="Folder">
