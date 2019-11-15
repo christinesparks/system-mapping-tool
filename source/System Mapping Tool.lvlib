@@ -24,6 +24,7 @@
 		<Item Name="SubVIs" Type="Folder">
 			<Item Name="Export All Mappings.vi" Type="VI" URL="../Mappings/Export All Mappings.vi"/>
 			<Item Name="Export Filtered Mappings.vi" Type="VI" URL="../Mappings/Export Filtered Mappings.vi"/>
+			<Item Name="Export Unmapped Channels.vi" Type="VI" URL="../Mappings/Export Unmapped Channels.vi"/>
 		</Item>
 		<Item Name="Export Mappings.vi" Type="VI" URL="../File IO/Export Mappings.vi"/>
 		<Item Name="Get SDF Path from INI.vi" Type="VI" URL="../File IO/Get SDF Path from INI.vi"/>
